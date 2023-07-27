@@ -4,6 +4,7 @@
     "description": "Find any word, on any page, with a little bit of magic",
     "manifest_version": 3,
     "author": "Archie Ferguson",
+    "permissions": ["storage"],
     "action":{
         "default_popup": "index.html",
         "default_title": "Word Wizard"

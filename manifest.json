@@ -1,0 +1,11 @@
+{
+    "name": "Word Wizard",
+    "version": "0.0.1",
+    "description": "Find any word, on any page, with a little bit of magic",
+    "manifest_version": 3,
+    "author": "Archie Ferguson",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Word Wizard"
+    }
+}

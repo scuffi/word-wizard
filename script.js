@@ -51,14 +51,14 @@ function buildSearchIndex() {
 
 init();
 
-document.addEventListener("DOMContentLoaded", () => {
-    const searchInput = document.getElementById("searchInput");
-    const searchBtn = document.getElementById("searchBtn");
-    const countLabel = document.getElementById("countLabel");
+// document.addEventListener("DOMContentLoaded", () => {
+//     const searchInput = document.getElementById("searchInput");
+//     const searchBtn = document.getElementById("searchBtn");
+//     const countLabel = document.getElementById("countLabel");
   
-    searchBtn.addEventListener("click", () => {
-      const word = searchInput.value;
-      search(word);
-    });
-  });
+//     searchBtn.addEventListener("click", () => {
+//       const word = searchInput.value;
+//       search(word);
+//     });
+//   });
   

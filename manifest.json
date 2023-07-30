@@ -2,11 +2,13 @@
     "name": "Word Wizard",
     "version": "0.0.1",
     "description": "Find any word, on any page, with a little bit of magic",
-    "manifest_version": 3,
-    "author": "Archie Ferguson",
-    "permissions": ["storage"],
-    "action":{
-        "default_popup": "index.html",
-        "default_title": "Word Wizard"
-    }
-}
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }],
+    "permissions": ["activeTab"]
+  }
